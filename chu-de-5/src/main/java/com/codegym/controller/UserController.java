@@ -36,9 +36,4 @@ public class UserController {
     public String showLoginForm() {
         return "login";
     }
-
-    @GetMapping("/home")
-    public String home() {
-        return "home";
-    }
 }
